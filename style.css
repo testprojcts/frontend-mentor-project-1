@@ -87,6 +87,7 @@ header a {
 .middle__nav a:hover {
   color: var(--Black);
   transition: all 0.25s ease-in-out;
+  cursor: pointer;
 }
 
 .auth__cart {
