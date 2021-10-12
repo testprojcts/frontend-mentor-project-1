@@ -13,10 +13,6 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <!-- We are going to create the header section / Component -->
@@ -27,7 +23,7 @@
       <header class="center__web">
         <div class="left__logo">
           <a href="index.html">
-            <h3>sneakers</h3>
+            <img src="/images/logo.svg" alt="" />
           </a>
           <nav class="middle__nav">
             <a href="">Collections</a>
@@ -56,10 +52,55 @@
             <img src="/images/image-product-1.jpg" alt="" />
           </div>
           <div class="sub__imgs">
-            <img src="/images/image-product-1-thumbnail.jpg" alt="" />
+            <img
+              src="/images/image-product-1-thumbnail.jpg"
+              alt=""
+              class="active"
+            />
             <img src="/images/image-product-2-thumbnail.jpg" alt="" />
             <img src="/images/image-product-3-thumbnail.jpg" alt="" />
             <img src="/images/image-product-4-thumbnail.jpg" alt="" />
+          </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="right__prod_details">
+          <div class="prod__heading">
+            <h4>Sneaker Company</h4>
+            <h3 class="prod__title">Fall Limited Edition Sneakers</h3>
+          </div>
+          <div class="prod__info_txt">
+            <p>
+              These low-profile sneakers are your perfect casual wear companion.
+              Featuring a durable rubber outer sole, they’ll withstand
+              everything the weather can offer.
+            </p>
+          </div>
+          <div class="prod__price">
+            <div class="discount">
+              <strong>$125.00</strong>
+              <span id="discount">50%</span>
+            </div>
+            <div class="old__price">
+              <strong><small>$250.00</small></strong>
+            </div>
+          </div>
+          <div class="prod_actions">
+            <div class="prod__counter">
+              <input
+                type="number"
+                name="number__counter"
+                id="number_counter"
+                placeholder="0"
+                required
+              />
+            </div>
+            <div class="prod__add_to_cart_btn">
+              <button type="button">
+                <img src="/images/icon-cart.svg" alt="" />
+                Add to cart
+              </button>
+            </div>
           </div>
         </div>
       </div>
