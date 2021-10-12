@@ -1,4 +1,4 @@
-# Front-end Style Guide
+very well# Front-end Style Guide
 
 ## Layout
 
@@ -33,3 +33,17 @@ The designs were created to the following widths:
 
 - Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
 - Weights: 400, 700
+
+<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+<!-- displays site properly based on user's device -->
