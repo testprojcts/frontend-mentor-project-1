@@ -11,6 +11,12 @@
     />
     <title>Frontend Mentor | E-commerce product page</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- We are going to create the header section / Component -->
@@ -20,19 +26,25 @@
     <header>
       <div class="left__logo">
         <a href="index.html">
-          <h3>sneaker</h3>
+          <h3>sneakers</h3>
         </a>
+        <nav class="middle__nav">
+          <a href="">Collections</a>
+          <a href="">Men</a>
+          <a href="">Women</a>
+          <a href="">About</a>
+          <a href="">Contact</a>
+        </nav>
       </div>
-      <nav class="middle__nav">
-        <a href="">Collections</a>
-        <a href="">Men</a>
-        <a href="">Women</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
-      </nav>
+
       <div class="auth__cart">
-        <a href="cart.html"><img src="/images/icon-cart.svg" alt="" /></a>
-        <a href="user.html"><img src="/images/image-avatar.png" alt="" /> </a>
+        <a href="cart.html">
+          <span><sup id="cart_number"></sup></span>
+          <img src="/images/icon-cart.svg" alt="" />
+        </a>
+        <a href="user.html"
+          ><img src="/images/image-avatar.png" alt="" class="user__img" />
+        </a>
       </div>
     </header>
   </body>
