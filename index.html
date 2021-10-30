@@ -34,8 +34,8 @@
           </nav>
         </div>
         <div class="auth__cart">
-          <a href="#">
-            <span><sup id="cart_number"></sup></span>
+          <a href="#" id="cart">
+            <span><sup id="cart_number">1</sup></span>
             <img src="/images/icon-cart.svg" alt="" />
           </a>
           <a href="#"
@@ -87,17 +87,24 @@
           </div>
           <div class="prod_actions">
             <div class="prod__counter">
+              <button id="decrease__btn" class="update__price_btn">
+                <img src="/images/icon-minus.svg" alt="" />
+              </button>
               <input
                 type="number"
                 name="number__counter"
                 id="number_counter"
                 placeholder="0"
                 required
+                disabled
               />
+              <button id="increase__btn" class="update__price_btn">
+                <img src="/images/icon-plus.svg" alt="" />
+              </button>
             </div>
             <div class="prod__add_to_cart_btn">
-              <button type="button">
-                <img src="/images/icon-cart.svg" alt="" />
+              <button type="button" id="add_to_cart">
+                <!-- <img src="/images/icon-cart.svg" alt="" /> -->
                 Add to cart
               </button>
             </div>
@@ -105,5 +112,7 @@
         </div>
       </div>
     </main>
+
+    <script src="app.js"></script>
   </body>
 </html>
